@@ -2,10 +2,12 @@
   "name": "pruebe-railway",
   "version": "0.0.0",
   "scripts": {
-      "scripts": {
-    "dev": "nodemon src/index.ts",
-    "build": "tsc",
-    "start": "node dist/index.js"
+    "ng": "ng",
+    "start": "ng serve",
+   "build": "ng build --prod",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
